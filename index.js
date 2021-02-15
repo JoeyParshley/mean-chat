@@ -1,13 +1,16 @@
 const express = require('express');
 
-const app = express();
+const config = require('./config/app');
 
-const port = 3000;
+const app = express();
 
 // route
 app.get('/home', (req, res) => {
   return res.send('Home Screen');
 });
+
+
+const port = config.appPort;
 
 app.listen(port, () => {
   console.log(`Server running on port: ${port}`)

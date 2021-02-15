@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/JoeyParshley/mean-chat#readme",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "node": "^15.8.0"
   }
 }
