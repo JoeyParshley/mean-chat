@@ -1,0 +1,23 @@
+{
+  "name": "mean-chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoeyParshley/mean-chat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoeyParshley/mean-chat/issues"
+  },
+  "homepage": "https://github.com/JoeyParshley/mean-chat#readme",
+  "dependencies": {
+    "node": "^15.8.0"
+  }
+}
