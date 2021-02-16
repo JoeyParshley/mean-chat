@@ -1,6 +1,5 @@
 const router = require('express').Router();
 
-// route
 router.get('/home', (req, res) => {
   return res.send('Home Screen');
 });
