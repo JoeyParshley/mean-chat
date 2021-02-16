@@ -1,7 +1,7 @@
 const router = require('express').Router();
 
 router.post('/login', (req, res) => {
-  return res.send(['Login',req.body]);
+  return res.send(['Login Message', req.body]);
 });
 
 router.post('/register', (req, res) => {
